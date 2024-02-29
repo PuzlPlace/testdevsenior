@@ -18,7 +18,7 @@ A primeira etapa será o desenvolvimento do backend.
 **Descrição**:
 
 Você será responsável por criar uma 'mini api' que permita a execução de transações de venda de produtos. 
-Além disso, será essencial elaborar um relatório baseado nessas transações. 
+Além disso, será essencial elaborar um relatório baseado nessas transações.
 Para simplificar o processo, a criação de um relatório no formato .csv é uma opção aceitável.
 
 **O cadastro do cliente e vendedor deverá possuir** :
@@ -58,29 +58,27 @@ Para simplificar o processo, a criação de um relatório no formato .csv é uma
 # Front-End
 **Para a segunda etapa do teste, você deverá desenvolver uma SPA (Single Page Application) com `Vue.js` e nela deve ser possível:**
 > - Gerenciar operações de listagem, cadastro, atualização e exclusão para clientes, vendedores, produtos e vendas.
-> - Em vendas, criar listagem do dados conforme definição no backend, utilizar os filtros definidos.
+> - Em vendas, criar listagem dos dados conforme definição no backend, utilizar os filtros definidos.
 > - Em vendas, criar recurso para "Faturar", "Estornar" ou "Cancelar".
 > - Em vendas, criar recurso para extração do relatório.
-> - Em vendas, criar recurso que envia um lote de pedidos de venda para o backend. O Conteúdo do lote de pedidos não será digitado pelo usuário. Elabore uma estratégia de dados aleatórios para enviar para o backend. Cuidado com chaves estrangeiras.
+> - Em vendas, criar recurso para enviar um lote de pedidos de venda ao backend, sem a necessidade de entrada manual pelo usuário. É importante projetar uma estratégia que gere dados aleatórios para o envio, garantindo a integridade das chaves estrangeiras.
 
 **Condições**:
 > - A página deve ser responsiva.
 > - A página deve funcionar 100% via AJAX, sem outros carregamentos de páginas.
-> - Os dados das requisições deverão ser gerenciados pelo VUEX.
-> - Ao criar/editar um livro, o campo "categoria" deverá ser um SELECT.
-> - A definição de peso ou tamanho do arquivo deverá ser realizada pela função `watch`, verificando o tipo do arquivo: *arquivo digital ou físico*
+> - Utilizar VUEX ou PINIA para gerenciamento de estado.
 
 **Dicas**:
 > - Você pode usar frameworks, tanto para o front-end (Vuejs) e tanto para o back-end.
 > - Você pode usar ferramentas de automação (Grunt, Gulp), mas deverá informar o uso completo para funcionamento do teste.
-> - Será considerado ponto positivo no teste a utilização de orientação a objetos, design patterns e rotinas para testes.
+> - Seu código será cuidadosamente analisado. Explore as melhores práticas de desenvolvimento, incluindo POO e princípios de SOLID. 
+> - Recomendo a inclusão de testes. 
+> - Exiba criatividade tanto na arquitetura do frontend quanto do backend. Considere se inspirar em Clean Architecture, Ports and Adapters, DDD, entre outros conceitos.
+> - Não é necessário adicionar mais colunas às tabelas do que já foi especificado. Por exemplo, não há necessidade de criar uma coluna para endereço na tabela de cliente e vendedor.
+> - Você tem a liberdade de adicionar funcionalidades extras que não foram mencionadas para demonstrar sua criatividade. No entanto, é crucial ter precaução para não ultrapassar o prazo de entrega.
 
 **Entrega**
-
 Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome completo e depois envie-nos o pull request. Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
-Nossa análise
-Organização do código, legibilidade e comentários, uso de padrões.
-Histórico de commits.
 
 **Dúvidas?**
 Quaisquer dúvidas que você venha a ter, abra você mesmo uma nova issue, ou mande um e-mail.
