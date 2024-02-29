@@ -39,7 +39,7 @@ Para simplificar o processo, a criação de um relatório no formato .csv é uma
 - Vendedor
 - Observação
 - Condição de Pagamento (Apenas uma descrição é suficiente)
-- Produtos (Pode conter um ou mais produtos vinculados a mesma venda)
+- Produtos (Um ou mais produtos vinculados)
 - Status (Pendente, Encerrada ou Cancelada)
 
 **Recursos
