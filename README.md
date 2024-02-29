@@ -42,7 +42,7 @@ Para simplificar o processo, a criação de um relatório no formato .csv é uma
 - Produtos (Um ou mais produtos vinculados)
 - Status (Pendente, Encerrada ou Cancelada)
 
-**Recursos
+**Recursos** :
 - Toda transação de venda deve inicialmente ser registrada com o status "Pendente".
 - Criar recurso para "Faturar", 'Estornar" e "Cancelar" Venda.
 - Ao "Faturar" uma venda, deve-se decrementar a quantidade disponível dos produtos relacionados.
@@ -77,9 +77,10 @@ Para simplificar o processo, a criação de um relatório no formato .csv é uma
 > - Não é necessário adicionar mais colunas às tabelas do que já foi especificado. Por exemplo, não há necessidade de criar uma coluna para endereço na tabela de cliente e vendedor.
 > - Você tem a liberdade de adicionar funcionalidades extras que não foram mencionadas para demonstrar sua criatividade. No entanto, é crucial ter precaução para não ultrapassar o prazo de entrega.
 
-**Entrega**
+
+**Entrega**:
 Para iniciar o teste, faça um fork deste repositório, crie uma branch com o seu nome completo e depois envie-nos o pull request. Se você apenas clonar o repositório não vai conseguir fazer push e depois vai ser mais complicado fazer o pull request.
 
-**Dúvidas?**
+**Dúvidas?**:
 Quaisquer dúvidas que você venha a ter, abra você mesmo uma nova issue, ou mande um e-mail.
 Boa sorte!
